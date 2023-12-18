@@ -1,0 +1,326 @@
+[
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 1,
+  "fields": {
+    "term": "Box",
+    "definition": "A CrossFit gym",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 2,
+  "fields": {
+    "term": "AMRAP",
+    "definition": "It stands for As Many Rounds (or Reps) as Possible. In circuit training, an AMRAP workout means you need to try to complete the circuit as many times as possible in the time you’re given.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 3,
+  "fields": {
+    "term": "EMOM",
+    "definition": "Every Minute on the Minute. This is a workout where you do a specific exercise every time a new minute starts. If you finish before the next minute begins, you can rest until the next minute starts.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 4,
+  "fields": {
+    "term": "Hero WOD",
+    "definition": "Hero WODs are challenging CrossFit workouts named after military servicemen, policemen or firefighters who died in the line of duty. They are extremely difficult workouts because they are designed to help us remember the sacrifices that have been made for us.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 5,
+  "fields": {
+    "term": "MetCon",
+    "definition": "A MetCon is a Metabolic Conditioning workout. MetCons are typically shorter workouts but they are designed to elevate you to a very high heart rate in a short period of time. They are used to train for stamina and conditioning.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 6,
+  "fields": {
+    "term": "RX",
+    "definition": "In CrossFit, when  you’re completing a WOD RX it means you aren’t changing or adjusting it in any way. You’re doing it as prescribed.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 7,
+  "fields": {
+    "term": "Scaled",
+    "definition": "A scaled workout is where you're taking the prescriptive workout, and you're modifying it in some way, shape or form to fit your needs. There are often times a lot of people will say, \"I can't do that workout\" - that's totally fine. Do what is best for you!",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 8,
+  "fields": {
+    "term": "Tabata",
+    "definition": "Tabata is a workout of 8 intervals that alternates 20 seconds of max rep work with 10 seconds of rest. The entire time adds up to 4 minutes and it is scored using the lowest interval rep count.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 9,
+  "fields": {
+    "term": "Air Squat",
+    "definition": "An air squat is a squat without weights. Start with feet shoulder width apart with toes pointed slightly outward. Engage core muscles, bend at the knees and lower body while keeping knees out over toes.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 10,
+  "fields": {
+    "term": "Bear Crawl",
+    "definition": "Start on hands and feet on the ground. Walk forward keeping hips low.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 11,
+  "fields": {
+    "term": "Benchmark WOD",
+    "definition": "A benchmark WOD is generally considered a workout standard across CrossFit allowing you to compare your progress against others. \"Girl WODs\", such as \"Fran\" or \"Amanda\", are examples of benchmark WODs.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 12,
+  "fields": {
+    "term": "Box Jump",
+    "definition": "Jump onto and down from an elevated platform, e.g. a box.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 13,
+  "fields": {
+    "term": "Broad Jump",
+    "definition": "An explosive forward jump, landing in a partial squat.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 14,
+  "fields": {
+    "term": "Burpee",
+    "definition": "Exercise where you drop to the ground, do a push-up, jump into a squat and then jump up.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 15,
+  "fields": {
+    "term": "Buy In",
+    "definition": "Something you must complete before proceeding onto the main workout. Can also be called a \"cash-in\".\r\n\r\nFor example, this WOD: 5 min AMRAP (as many rounds as possible) of 12 handstand pushups and 20 situps. Buy in of 30 pushups.\r\n\r\nThis means you must complete the buy in of 30 pushups before you start the AMRAP.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 16,
+  "fields": {
+    "term": "Buy Out",
+    "definition": "Something you must complete before declaring the workout finished. Also known as a \"cash out\".\r\n\r\nFor example, this WOD: 7 min AMRAP (as many rounds as possible) of 10 burpees and 10 pushups. Buy out of 100 situps.\r\n\r\nThis means you must complete the AMRAP and then do 100 situps to complete the workout.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 17,
+  "fields": {
+    "term": "Deadlift",
+    "definition": "Lift weight from a standing position.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 18,
+  "fields": {
+    "term": "Dip",
+    "definition": "Start raised on two supports using hands with elbows locked out. Lower body slowly until shoulders are lower than elbows. Push up by straightening arms. Can be completed on dip bars to increase difficulty.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 19,
+  "fields": {
+    "term": "Double-Under",
+    "definition": "Two turns of the jump rope per jump. If you want to scale, do normal skipping (or \"single-unders\") and double the repetitions required.\r\n\r\nOften abbreviated as \"DU\".",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 20,
+  "fields": {
+    "term": "Farmer Carry",
+    "definition": "Hold a weight (for example, dumbbells or kettlebells) in each hand by your side, and walk in a smooth, controlled fashion. Keep your shoulders back, chest up, a neutral spine and core engaged.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 21,
+  "fields": {
+    "term": "Goblet Squat",
+    "definition": "Hold a weight (such as a kettlebell or dumbbell) in both hands in the front rack position. Then, perform a squat.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 22,
+  "fields": {
+    "term": "Hollow Rock",
+    "definition": "Lie down on back. Raise legs a couple of inches from the ground keeping them straight, together and toes pointed. Stretch arms over head and raise them a couple of inches, keeping them straight and close to your ears. Keep this position and start rocking back and forth without allowing the shape to break at any time.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 23,
+  "fields": {
+    "term": "Jumping Jacks",
+    "definition": "Start standing straight with feet together and arms by side. Jump up and spread feet apart while bringing arms up overhead. Return to starting position and repeat.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 24,
+  "fields": {
+    "term": "Jumping Lunge",
+    "definition": "As per a regular lunge, only perform in an explosive fashion swapping legs quickly.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 25,
+  "fields": {
+    "term": "Kettlebell Swing",
+    "definition": "Place two hands on the kettlebell. While keeping the core engaged and back tight, hinge at the hips, allow the kettlebell to pass through your legs. Then using the momentum, swing the kettlebell up to eye level by pushing through with the hips.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 26,
+  "fields": {
+    "term": "Mountain Climber",
+    "definition": "Start in a push up position. Bring one leg up to your elbow keeping the other leg extended behind you. Switch legs and repeat.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 27,
+  "fields": {
+    "term": "Plank",
+    "definition": "Place forearms on the ground with elbows below the shoulders and arms parallel to the body. Hold yourself up on your feet and forearms in a straight line through engaging your core and squeezing your buttocks. Do not let hips sag or back bend.\r\n\r\nAlso known as \"core hold\".",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 28,
+  "fields": {
+    "term": "Pull-up",
+    "definition": "Pull yourself up to a bar with an overhand grip.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 29,
+  "fields": {
+    "term": "Push-up",
+    "definition": "Place both hands on the ground, shoulder width apart, and arms extended straight. Hips are open and legs are straight balancing on the toes. Lower the body by bending elbows while keeping core and buttocks engaged and forearms at a 90 degree angle to the floor. Once the chest makes contact with the ground, extend the arms and push up into the starting position.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 30,
+  "fields": {
+    "term": "RFT",
+    "definition": "Rounds For Time. Complete the specified number of rounds of exercises as fast as possible.",
+    "workout": false
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 31,
+  "fields": {
+    "term": "Sit-up",
+    "definition": "Lie on the ground with knees bent and out to the sides. Sit-up while keeping an engaged core and the spine neutral.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 32,
+  "fields": {
+    "term": "Slam Ball",
+    "definition": "Stand tall with feet shoulder-width apart, holding a slam ball. Bring the ball overhead, then throw to the ground as per the video. Bend the knees, pick back up and repeat.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 33,
+  "fields": {
+    "term": "Toes-to-bar",
+    "definition": "While hanging from a bar, bring toes up to bar. Can be abbreviated as \"T2B\".",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 34,
+  "fields": {
+    "term": "Wall-ball",
+    "definition": "Using a medicine ball or something similar, stand close to a wall. Squat down and stand up using the momentum to push the ball up to hit a target on the wall. Catch and repeat.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 35,
+  "fields": {
+    "term": "Wall-walk",
+    "definition": "Start in the bottom of the push up position, with feet against a wall. Push body up while walking feet up the wall. Continue to push body up the wall and move hands closer to the wall.",
+    "workout": true
+  }
+},
+{
+  "model": "crossFitTerm_app.crossfitterm",
+  "pk": 36,
+  "fields": {
+    "term": "Walking Lunge",
+    "definition": "Same as a lunge, only instead of staying in the one position, move forward like walking.",
+    "workout": true
+  }
+}
+]

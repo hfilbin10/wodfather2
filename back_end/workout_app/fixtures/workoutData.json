@@ -1,0 +1,213 @@
+[
+{
+  "model": "workout_app.workout",
+  "pk": 1,
+  "fields": {
+    "category": "Travel WOD",
+    "exercise": "RFT",
+    "description": "7 RFT\r\n30 second Plank\r\n10 Burpees\r\n8 Hollow Rock\r\n3 Wall-walk\r\n400 meter run",
+    "crossfit_terms": [
+      35,
+      27,
+      14,
+      22
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 2,
+  "fields": {
+    "category": "Travel WOD",
+    "exercise": "Tabata",
+    "description": "8 rounds at 20 seconds on/10 seconds off\r\nPush-ups\r\nComplete all 8 rounds followed by:\r\n\r\n8 rounds at 20 seconds on/10 seconds off\r\nJumping Lunges\r\nComplete all 8 rounds followed by:\r\n\r\n8 rounds at 20 seconds on/10 seconds off\r\nMountain Climber",
+    "crossfit_terms": [
+      24,
+      26,
+      29
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 3,
+  "fields": {
+    "category": "Travel WOD",
+    "exercise": "EMOM",
+    "description": "Perform 5 jumping lunges (each side) in minute one, then increase by 2 every minute until you cannot complete anymore. For example:\r\n\r\nMinute 1: 5 jumping lunges (each side)\r\nMinute 2: 7 jumping lunges (each side)\r\nMinute 3: 9 jumping lunges (each side)\r\n...\r\nMinute 8: 19 jumping lunges (each side)",
+    "crossfit_terms": [
+      24
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 4,
+  "fields": {
+    "category": "Travel WOD",
+    "exercise": "AMRAP",
+    "description": "36 minute AMRAP\r\nComplete the following in order:\r\n50 mountain climbers (each side)\r\n40 air squats\r\n100 sit-ups\r\n200 double-unders\r\n150 push-ups\r\n30 broad jumps\r\n100 burpees\r\n60 walking lunges (each side)",
+    "crossfit_terms": [
+      36,
+      9,
+      13,
+      14,
+      19,
+      26,
+      29,
+      31
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 5,
+  "fields": {
+    "category": "Travel WOD",
+    "exercise": "AMRAP",
+    "description": "20 minute AMRAP\r\n6 jumping lunges (each side)\r\n10 sit-ups\r\n4 wall walks",
+    "crossfit_terms": [
+      24,
+      35,
+      31
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 6,
+  "fields": {
+    "category": "Bodyweight WOD",
+    "exercise": "RFT",
+    "description": "120 dips\r\n\r\nTime cap of 5 minutes.",
+    "crossfit_terms": [
+      18
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 7,
+  "fields": {
+    "category": "Bodyweight WOD",
+    "exercise": "RFT",
+    "description": "9 RFT\r\n6 pull-ups\r\n30 second plank\r\n12 air squats\r\n8 broad jumps\r\n\r\nTime cap of 32 minutes.",
+    "crossfit_terms": [
+      9,
+      27,
+      28,
+      13
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 8,
+  "fields": {
+    "category": "Bodyweight WOD",
+    "exercise": "RFT",
+    "description": "7 RFT\r\n20 meter bear crawl\r\n10 toes-to-bar",
+    "crossfit_terms": [
+      33,
+      10
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 9,
+  "fields": {
+    "category": "Bodyweight WOD",
+    "exercise": "Pyramid",
+    "description": "1-2-3-4-5-6-5-4-3-2-1 reps of:\r\n\r\nwalking lunges (each side)\r\npull-ups\r\nwall walks\r\n\r\nComplete 1 rep of each movement, then 2 reps of each, etc until the Pyramid is completed.",
+    "crossfit_terms": [
+      35,
+      28,
+      36
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 10,
+  "fields": {
+    "category": "Bodyweight WOD",
+    "exercise": "Tabata",
+    "description": "8 rounds of:\r\n20 seconds hollow rocks\r\n10 seconds rest\r\n8 rounds of:\r\n20 seconds planks\r\n10 seconds rest\r\n8 rounds of:\r\n20 seconds sit-ups\r\n10 seconds rest",
+    "crossfit_terms": [
+      27,
+      22,
+      31
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 11,
+  "fields": {
+    "category": "Hero WOD",
+    "exercise": "Kerrie",
+    "description": "10 RFT:\r\n100-meter sprint\r\n5 burpees\r\n20 sit-ups\r\n15 push-ups\r\n100-meter sprint\r\nRest 2 minutes\r\n\r\nTime Cap 45min",
+    "crossfit_terms": [
+      29,
+      14,
+      31
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 12,
+  "fields": {
+    "category": "Hero WOD",
+    "exercise": "Murph",
+    "description": "For time:\r\n1 mile Run\r\n100 Pull-ups\r\n200 Push-ups\r\n300 Squats\r\n1 mile Run",
+    "crossfit_terms": [
+      9,
+      28,
+      29
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 13,
+  "fields": {
+    "category": "Hero WOD",
+    "exercise": "Hansen",
+    "description": "Five rounds for time of:\r\n70# Kettlebell swing, 30 reps\r\n30 Burpees\r\n30 sit-ups",
+    "crossfit_terms": [
+      25,
+      14,
+      31
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 14,
+  "fields": {
+    "category": "Hero WOD",
+    "exercise": "McGhee",
+    "description": "30 Minute AMRAP\r\n275 pound Deadlift, 5 reps\r\n13 Push-ups\r\n9 Box jumps, 24 inch box",
+    "crossfit_terms": [
+      17,
+      12,
+      29
+    ]
+  }
+},
+{
+  "model": "workout_app.workout",
+  "pk": 15,
+  "fields": {
+    "category": "Hero WOD",
+    "exercise": "Severin",
+    "description": "50 Pull-ups\r\n100 Push-ups, release hands from floor at the bottom\r\nRun 5K",
+    "crossfit_terms": [
+      28,
+      29
+    ]
+  }
+}
+]
