@@ -23,7 +23,7 @@ const LogIn = () => {
             localStorage.setItem("token", response.data.token);
             api.defaults.headers.common["Authorization"] = `Token ${response.data.token}`;
 
-            navigate("/");
+            navigate("/home");
         } catch (error) {
             console.error("Login error:", error);
             setError("Invalid email or password. Please try again.");

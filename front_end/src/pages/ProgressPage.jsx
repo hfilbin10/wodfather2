@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { api } from "../utilities";
 import { Card, Form, Button, Modal } from 'react-bootstrap';
+import backgroundImage from "../assets/journal-bg-image.png";
 
 export const Progress = () => {
     const [isCreatingPost, setIsCreatingPost] = useState(false);
@@ -201,9 +202,27 @@ export const Progress = () => {
         }
     };
 
+    const containerStyle = {
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "100% 100%",
+        // backgroundRepeat: "no-repeat",
+        // backgroundPosition: "center center",
+        minHeight: "100vh",
+        // position: "relative",
+        // overflow: "hidden"
+    };
+    const cardStyle = {
+        background: "rgba(255, 255, 255, 0.0)", 
+        marginBottom: "15px",
+        marginLeft: "5px",
+        padding: "15px",
+        border: "0px", 
+    };
+
+
     return (
-        <div>
-            <Card>
+        <div style={containerStyle}>
+            <Card  className="post-card-style"style={cardStyle}>
                 <Card.Body>
                     {isCreatingPost && (
                         <>
@@ -284,21 +303,23 @@ export const Progress = () => {
 
                     {savedPosts.length > 0 && (
                         <>
-                            <Card.Title>Saved Posts:</Card.Title>
+                            <Card.Title><h1 className="text-center">Workout Journal:</h1></Card.Title>
                             {savedPosts.sort((a, b) => new Date(b.date_completed) - new Date(a.date_completed)).map(savedPost => (
-                                <Card key={savedPost.id}>
+                                <Card key={savedPost.id} style={cardStyle}>
                                     <Card.Body>
                                         <strong>Date Completed:</strong> {savedPost.date_completed}<br />
                                         <strong>WOD:</strong> {savedPost.workout_description}<br />
                                         <strong>Time to Complete:</strong> {savedPost.time_to_complete}<br />
                                         <strong>Reps:</strong> {savedPost.reps}<br />
                                         <strong>Notes:</strong> {savedPost.notes}
-                                        <Button variant="primary" onClick={() => handleEdit(savedPost.id)}>
-                                            Edit
-                                        </Button>
-                                        <Button variant="danger" onClick={() => handleDeleteConfirmation(savedPost.id)}>
-                                            Delete
-                                        </Button>
+                                        <div className="ml-auto">
+                                            <Button variant="primary" onClick={() => handleEdit(savedPost.id)}>
+                                                Edit
+                                            </Button>
+                                            <Button variant="danger" onClick={() => handleDeleteConfirmation(savedPost.id)}>
+                                                Delete
+                                            </Button>
+                                        </div>
                                     </Card.Body>
                                 </Card>
                             ))}

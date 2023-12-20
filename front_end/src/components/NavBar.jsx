@@ -14,32 +14,34 @@ const NavBar = ({ user, setUser }) => {
             setUser(null);
             localStorage.removeItem("token");
             delete api.defaults.headers.common["Authorization"];
-            navigate("/")
-
+            navigate("/");
         }
     };
 
     return (
-        <Navbar bg="dark" data-bs-theme="dark">
+        <Navbar bg="dark" variant="dark" expand="md">
             <Container>
                 <Navbar.Brand href="#home">WODfather</Navbar.Brand>
-                <Nav className="me-auto">
-                    <Nav.Link as={Link} to="/home">Home</Nav.Link>
-                    {user ? (
-                        <>
-                            <Nav.Link as={Link} to="/findbox/">Find Box</Nav.Link>
-                            <Nav.Link as={Link} to="/terms/">Terms</Nav.Link>
-                            <Nav.Link as={Link} to="/workoutcategories/">WOD Categories</Nav.Link>
-                            <Nav.Link as={Link} to="/progress/">Progress</Nav.Link>
-                            <Nav.Link as={Link} to="/submitwod/">Submit WOD</Nav.Link>
-                            <Button onClick={logOut} variant="danger">
-                                Log Out
-                            </Button>
-                        </>
-                    ) : (
-                        <Nav.Link as={Link} to="/register/">Log In</Nav.Link>
-                    )}
-                </Nav>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav className="ml-auto">
+                        <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                        {user ? (
+                            <>
+                                <Nav.Link as={Link} to="/findbox/">Find Box</Nav.Link>
+                                <Nav.Link as={Link} to="/terms/">Terms</Nav.Link>
+                                <Nav.Link as={Link} to="/workoutcategories/">WOD Categories</Nav.Link>
+                                <Nav.Link as={Link} to="/progress/">Journal</Nav.Link>
+                                <Nav.Link as={Link} to="/submitwod/">Submit WOD</Nav.Link>
+                                <Button onClick={logOut} variant="danger" className="mr-2">
+                                    Log Out
+                                </Button>
+                            </>
+                        ) : (
+                            <Nav.Link as={Link} to="/register/">Log In</Nav.Link>
+                        )}
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     );

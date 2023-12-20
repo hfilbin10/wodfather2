@@ -22,7 +22,7 @@ const SignUp = ({ setUser }) => {
                 setUser(response.data.user);  
                 localStorage.setItem("token", response.data.token);
                 api.defaults.headers.common["Authorization"] = `Token ${response.data.token}`;
-                navigate("/");
+                navigate("/home");
             } else {
                 alert("Something Went wrong");
             }

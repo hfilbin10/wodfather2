@@ -1,5 +1,40 @@
 form {
     margin: 5vmin;
     padding: 3vmin;
-    border: solid light gray;
+}
+
+#root{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    box-sizing: border-box;
+} 
+/* gets footer to bottom of page with no content on it */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
+}
+
+
+footer {
+    width: 100%;
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+    
+}
+
+.post-card-style {
+    font-family: 'Nanum Pen Script', sans-serif;
+    font-size: 28px;
 }

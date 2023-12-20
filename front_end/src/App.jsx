@@ -3,6 +3,7 @@ import "./App.css";
 import { api } from "./utilities";
 import { Outlet, useLocation } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
       )}
       {/* <h3>Welcome {user ? user : null}</h3> */}
       <Outlet context={{ user, setUser }} />
+      <Footer />
     </>
   );
 }
